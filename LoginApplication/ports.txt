@@ -1,0 +1,12 @@
+create account --- POST --- http://localhost:1234/add
+
+{
+	"userName":"vam02780",
+	"mobileNumber":"9603333",
+	"userAddress":"srd",
+	"emailId":"vams@587"
+}
+
+Login ---- POST --- http://localhost:1235/vam02780/vams
+
+Account numbers --- Get -- http://localhost:1236/accno
